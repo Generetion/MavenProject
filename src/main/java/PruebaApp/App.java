@@ -13,7 +13,7 @@ public class App
     public static String SwichtNumbers(int numberOne, int numberTwo)
     {   
         String result;
-        String prueba = "Dios Rodi";
+        String prueba = "Dios Rodi se cogian a Juan :V";
         System.out.print("Valores inciales, numero uno: " + numberOne + " numero dos: " + numberTwo + "\n");
         numberTwo = numberOne + numberTwo;
         numberOne = numberTwo - numberOne;
