@@ -8,7 +8,6 @@ public class App
 {
      public static void main( String[] args )
     {
-        System.out.println("HAfhjfhjhgjPPY");
         System.out.println(App.SwichtNumbers(10, 0x33));
     }
     public static String SwichtNumbers(int numberOne, int numberTwo)
