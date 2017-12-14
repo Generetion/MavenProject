@@ -1,5 +1,7 @@
 package PruebaApp;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 /**
  * Hello world!
  *
@@ -20,6 +22,15 @@ public class App
         result = "El valor del numero uno es: " + numberOne + " y el valor del numero dos es: " + numberTwo ; 
         return result;
         
+    }
+    
+    public static void abc(){
+        AtomicInteger aInt1 = new AtomicInteger(0);
+        AtomicInteger aInt2 = new AtomicInteger(0);
+
+        if (aInt1.equals(aInt2)) { 
+        
+        }  // Noncompliant
     }
             
 }
